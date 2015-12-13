@@ -36,7 +36,7 @@ def remove_tag():
         hotel_data = f.read()
 
     with open('data/hotel-dataset.csv', 'w', encoding='utf8') as f:
-        f.write(BeautifulSoup(hotel_data).get_text())
+        f.write(BeautifulSoup(hotel_data, "html.parser").get_text())
 
 def remove_nonletter():
     with open('data/hotel-dataset.tsv', 'r', encoding='utf8') as f:

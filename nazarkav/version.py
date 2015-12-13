@@ -25,23 +25,23 @@ CLASSIFIERS = ["Development Status :: 3 - Alpha",
                "Topic :: Scientific/Engineering"]
 
 # Description should be a one-liner:
-description = "shablona: a template for small scientific Python projects"
+description = "nazarkav: sentiment analysis library for persian language"
 # Long description will go up on the pypi page
 long_description = """
 
-Shablona
+nazarkav
 ========
-Shablona is a template project for small scientific Python projects. 
+Nazarkav is a sentiment analysis library for persian language. 
 
 It contains software implementations of an analysis of some simple data, but more importantly, it contains infrastructure for testing, documentation, continuous integration and deployment, which can be easily adapted to use in other projects. 
 
 To get started using these components in your own software, please go to the repository README_. 
 
-.. _README: https://github.com/uwescience/shablona/blob/master/README.md
+.. _README: https://github.com/amsjavan/nazarkav/blob/master/README.md
 
 License
 =======
-``shablona`` is licensed under the terms of the MIT license. See the file
+``nazarkav`` is licensed under the terms of the MIT license. See the file
 "LICENSE" for information on the history of this software, terms & conditions
 for usage, and a DISCLAIMER OF ALL WARRANTIES.
 

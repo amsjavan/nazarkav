@@ -60,7 +60,7 @@ if __name__ == '__main__':
     docwriter = ApiDocWriter(package, rst_extension='.rst',
                              other_defines=other_defines)
                              
-    docwriter.package_skip_patterns += [r'\.shablona$',
+    docwriter.package_skip_patterns += [r'\.nazarkav$',
                                         r'.*test.*$',
                                         r'\.version.*$']
     docwriter.write_api_docs(outdir)

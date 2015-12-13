@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# shablona documentation build configuration file, created by
+# nazarkav documentation build configuration file, created by
 # sphinx-quickstart on Tue Apr 14 10:29:06 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -19,7 +19,7 @@ import os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-sys.path.insert(0, os.path.abspath('../shablona'))
+sys.path.insert(0, os.path.abspath('../nazarkav'))
 
 # -- General configuration ------------------------------------------------
 
@@ -57,7 +57,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'shablona'
+project = 'nazarkav'
 copyright = '2015, Ariel Rokem'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -191,7 +191,7 @@ html_domain_indices = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'shablonadoc'
+htmlhelp_basename = 'nazarkavdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -211,8 +211,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'shablona.tex', 'shablona Documentation',
-   'Ariel Rokem', 'manual'),
+  ('index', 'nazarkav.tex', 'nazarkav Documentation',
+   'Amir Javan', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -241,8 +241,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'shablona', 'shablona Documentation',
-     ['Ariel Rokem'], 1)
+    ('index', 'nazarkav', 'nazarkav Documentation',
+     ['Amir Javan'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'shablona', 'shablona Documentation',
-   'Ariel Rokem', 'shablona', 'One line description of project.',
+  ('index', 'nazarkav', 'nazarkav Documentation',
+   'Amir Javan', 'nazarkav', 'One line description of project.',
    'Miscellaneous'),
 ]
 
