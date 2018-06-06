@@ -47,7 +47,7 @@ for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
 All trademarks referenced herein are property of their respective holders.
 
-Copyright (c) 2015--, Ariel Rokem, The University of Washington eScience Institute. 
+Copyright (c) 2015--, Amir Javan, IAU. 
 """
 
 NAME = "nazarkav"
@@ -67,6 +67,6 @@ MICRO = _version_micro
 VERSION = __version__
 PACKAGES = ['nazarkav',
             'nazarkav.tests']
-PACKAGE_DATA = {'persian-sa': [pjoin('data', '*')]}
+PACKAGE_DATA = {'nazarkav': [pjoin('data', '*')]}
 REQUIRES = ["numpy"]
 
